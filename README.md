@@ -1,24 +1,11 @@
-# README
+# Cafe Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple app to implement a cafe, based on the ruby cafe and mvc cafe we have already built in class
 
-Things you may want to cover:
+- Ruby version: 2.6.3
 
-* Ruby version
+- Configuration - Update config/database.yml with postgresql details
 
-* System dependencies
+- Database creation - rails db:setup
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Database initialization - rails db:migrate
