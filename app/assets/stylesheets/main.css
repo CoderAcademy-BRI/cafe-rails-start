@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap");
+th {
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 1.4em;
+}
+
+td {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 1em;
+}
+
+.container {
+  margin: 0.5em;
+  padding: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-class {
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 1.5em;
+  width: 60%;
+}
+
+.button-class {
+  border: none;
+  background-color: #e7526b;
+  font-family: "Lobster", cursive;
+  color: white;
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 2em;
+}
+
+.a-block {
+  display: inline-block;
+  width: 100%;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+a {
+  font-family: "Lobster", cursive;
+  color: #e7526b;
+  font-size: 1.4em;
+}
+/*# sourceMappingURL=main.css.map */

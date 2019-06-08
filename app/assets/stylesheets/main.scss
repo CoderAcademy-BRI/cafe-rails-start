@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap");
+@import "base/variables";
+@import "base/mixins";
+@import "partials/tables";
+
+.container {
+	@include flex-center;
+}
+
+.form-class {
+	@include font-settings($size: 1.5em);
+	width: 60%;
+}
+
+.button-class {
+	border: none;
+	background-color: $hot-color;
+	@include font-settings($font-fam: $head-font, $size: 1.2em, $color: $second-color);
+	margin: 1em;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	@include font-settings($font-fam: $head-font, $size: 2em);
+}
+.a-block {
+	display: inline-block;
+	width: 100%;
+	align-self: start;
+}
+
+a {
+	@include font-settings($font-fam: $head-font, $size: 1.4em, $color: $hot-color);
+}
